@@ -28,5 +28,6 @@ include(":mpp-library")
 listOf(
     Modules.MultiPlatform.domain,
     Modules.MultiPlatform.Feature.config,
-    Modules.MultiPlatform.Feature.list
+    Modules.MultiPlatform.Feature.list,
+    Modules.MultiPlatform.Feature.testlib
 ).forEach { include(it.name) }
