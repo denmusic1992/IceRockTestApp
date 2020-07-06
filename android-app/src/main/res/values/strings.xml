@@ -6,4 +6,8 @@
     <string name="token_hint">API token</string>
     <string name="language_hint">Language code</string>
     <string name="retry_btn">Retry</string>
+    <string name="textview_enter_amount">Please enter kg amount</string>
+    <string name="amount_placeholder">enter amount here</string>
+    <string name="kilo">kg</string>
+    <string name="button_buy">Buy!</string>
 </resources>
