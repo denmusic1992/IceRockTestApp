@@ -60,6 +60,7 @@ dependencies {
     implementation(Deps.Libs.Android.recyclerView.name)
 
     implementation(Deps.Libs.MultiPlatform.napier.android!!)
+    implementation(Deps.Libs.MultiPlatform.coroutines.android!!)
 
     implementation(project(":mpp-library"))
 

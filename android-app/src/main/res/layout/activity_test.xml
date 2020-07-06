@@ -53,6 +53,7 @@
             app:layout_constraintTop_toTopOf="@+id/TextInputEnterAmount" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonApply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/common_margin"
@@ -62,6 +63,16 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/TextInputEnterAmount" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/common_margin"
+            android:onClick="@{() -> viewmodel.onButtonPhotoPressed()}"
+            android:text="@string/check_camera_permissions"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonApply" />
 
         <ProgressBar
             android:id="@+id/progressBuy"
