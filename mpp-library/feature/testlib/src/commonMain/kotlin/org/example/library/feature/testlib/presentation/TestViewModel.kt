@@ -17,7 +17,7 @@ class TestViewModel(
     val amount: MutableLiveData<String> = MutableLiveData("")
     private val _isLoading: MutableLiveData<Boolean> = MutableLiveData(false)
     val isLoading: LiveData<Boolean> = _isLoading.readOnly()
-    val isBuyButtonEnabled: LiveData<Boolean> = amount.map { it.isNotBlank() && isLoading.not().value }
+    val isBuyButtonEnabled: LiveData<Boolean> = amount.mergeWith(isLoading) { first, second -> first.isNotBlank() && second.not() }
 
     fun onButtonPressed() {
         eventsDispatcher.dispatchEvent { processLogging() }
