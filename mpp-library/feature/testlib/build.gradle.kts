@@ -19,4 +19,7 @@ android {
 
 dependencies {
     mppLibrary(Deps.Libs.MultiPlatform.kotlinStdLib)
+    mppLibrary(Deps.Libs.MultiPlatform.mokoMvvm)
+
+    androidLibrary(Deps.Libs.Android.appCompat)
 }
