@@ -11,4 +11,7 @@
     <string name="kilo">kg</string>
     <string name="button_buy">Buy!</string>
     <string name="check_camera_permissions">Check camera permissions</string>
+    <string name="card_number">enter card number</string>
+    <string name="edittext_cardHolder">enter card holder</string>
+    <string name="edittext_cvcCode">enter cvc card code</string>
 </resources>
