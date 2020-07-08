@@ -22,6 +22,11 @@ object Modules {
                 name = ":mpp-library:feature:testlib",
                 exported = true
             )
+
+            val logictest = MultiPlatformModule(
+                name = ":mpp-library:feature:logictest",
+                exported = true
+            )
         }
     }
 }

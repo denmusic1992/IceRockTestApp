@@ -30,5 +30,6 @@ listOf(
     Modules.MultiPlatform.domain,
     Modules.MultiPlatform.Feature.config,
     Modules.MultiPlatform.Feature.list,
-    Modules.MultiPlatform.Feature.testlib
+    Modules.MultiPlatform.Feature.testlib,
+    Modules.MultiPlatform.Feature.logictest
 ).forEach { include(it.name) }
