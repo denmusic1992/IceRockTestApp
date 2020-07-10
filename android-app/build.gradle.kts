@@ -58,6 +58,7 @@ dependencies {
     implementation(Deps.Libs.Android.constraintLayout.name)
     implementation(Deps.Libs.Android.material.name)
     implementation(Deps.Libs.Android.recyclerView.name)
+    implementation(Deps.Libs.Android.glide.name)
 
     implementation(Deps.Libs.MultiPlatform.napier.android!!)
     implementation(Deps.Libs.MultiPlatform.coroutines.android!!)

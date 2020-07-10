@@ -1,4 +1,4 @@
-package org.example.library.feature.testlib.presentation
+package org.example.library.feature.logictest.presentation
 
 import dev.icerock.moko.mvvm.dispatcher.EventsDispatcher
 import dev.icerock.moko.mvvm.dispatcher.EventsDispatcherOwner

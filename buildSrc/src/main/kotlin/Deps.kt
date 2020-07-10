@@ -36,6 +36,9 @@ object Deps {
             val lifecycle = AndroidLibrary(
                 name = "androidx.lifecycle:lifecycle-extensions:${Versions.Libs.Android.lifecycle}"
             )
+            val glide = AndroidLibrary(
+                name = "com.github.bumptech.glide:glide:${Versions.Libs.Android.glide}"
+            )
         }
 
         object MultiPlatform {
@@ -112,6 +115,12 @@ object Deps {
                 common = "dev.icerock.moko:fields:${Versions.Libs.MultiPlatform.mokoFields}",
                 iosX64 = "dev.icerock.moko:fields-iosx64:${Versions.Libs.MultiPlatform.mokoFields}",
                 iosArm64 = "dev.icerock.moko:fields-iosarm64:${Versions.Libs.MultiPlatform.mokoFields}"
+            )
+
+            val mokoPaging = MultiPlatformLibrary(
+                common = "dev.icerock.moko:paging:${Versions.Libs.MultiPlatform.mokoPaging}",
+                iosX64 = "dev.icerock.moko:paging-iosx64:${Versions.Libs.MultiPlatform.mokoPaging}",
+                iosArm64 = "dev.icerock.moko:paging-iosarm64:${Versions.Libs.MultiPlatform.mokoPaging}"
             )
             val settings = MultiPlatformLibrary(
                 common = "com.russhwolf:multiplatform-settings:${Versions.Libs.MultiPlatform.settings}",

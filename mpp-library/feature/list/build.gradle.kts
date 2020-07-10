@@ -28,6 +28,7 @@ dependencies {
     mppLibrary(Deps.Libs.MultiPlatform.mokoMvvm)
     mppLibrary(Deps.Libs.MultiPlatform.mokoResources)
     mppLibrary(Deps.Libs.MultiPlatform.mokoUnits)
+    mppLibrary(Deps.Libs.MultiPlatform.mokoPaging)
 
     mppLibrary(Deps.Libs.MultiPlatform.napier)
 }

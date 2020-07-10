@@ -3,7 +3,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="org.example.library.feature.testlib.presentation.FieldsViewModel" />
+            type="org.example.library.feature.logictest.presentation.FieldsViewModel" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"

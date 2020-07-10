@@ -9,7 +9,7 @@ import org.example.app.R
 import org.example.app.databinding.ActivityValidationBinding
 import org.example.app.ext.errToast
 import org.example.app.ext.toast
-import org.example.library.feature.testlib.presentation.FieldsViewModel
+import org.example.library.feature.logictest.presentation.FieldsViewModel
 
 /**
 Created by Denis Chornyy on 08,Июль,2020

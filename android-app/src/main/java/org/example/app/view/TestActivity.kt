@@ -11,7 +11,7 @@ import org.example.app.R
 import org.example.app.databinding.ActivityTestBinding
 import org.example.app.ext.errToast
 import org.example.app.ext.toast
-import org.example.library.feature.testlib.presentation.TestViewModel
+import org.example.library.feature.logictest.presentation.TestViewModel
 
 /**
 Created by Denis Chornyy on 06,Июль,2020

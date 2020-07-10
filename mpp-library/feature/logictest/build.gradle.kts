@@ -5,6 +5,7 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.multiplatform")
+    id("kotlin-android-extensions")
     id("dev.icerock.mobile.multiplatform")
 }
 
@@ -21,6 +22,8 @@ dependencies {
     mppLibrary(Deps.Libs.MultiPlatform.kotlinStdLib)
     mppLibrary(Deps.Libs.MultiPlatform.mokoMvvm)
     mppLibrary(Deps.Libs.MultiPlatform.mokoFields)
+    mppLibrary(Deps.Libs.MultiPlatform.mokoUnits)
+    mppLibrary(Deps.Libs.MultiPlatform.mokoPaging)
 
     androidLibrary(Deps.Libs.Android.appCompat)
 }

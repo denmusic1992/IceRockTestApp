@@ -1,4 +1,4 @@
-package org.example.library.feature.testlib.presentation
+package org.example.library.feature.logictest.presentation
 
 import dev.icerock.moko.fields.FormField
 import dev.icerock.moko.fields.liveBlock

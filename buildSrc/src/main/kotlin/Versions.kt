@@ -32,6 +32,7 @@ object Versions {
             const val constraintLayout = "1.1.3"
             const val lifecycle = "2.0.0"
             const val recyclerView = "1.0.0"
+            const val glide = "4.11.0"
         }
 
         object MultiPlatform {
@@ -49,6 +50,7 @@ object Versions {
             const val mokoResources = Versions.mokoResources
             const val mokoNetwork = Versions.mokoNetwork
             const val mokoFields = "0.3.0"
+            const val mokoPaging = "0.3.1"
             const val mokoPermissions = "0.5.0"
             const val mokoMedia = "0.4.0"
             const val mokoUnits = Versions.mokoUnits

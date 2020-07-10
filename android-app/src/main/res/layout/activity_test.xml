@@ -3,7 +3,7 @@
     <data>
         <variable
             name="viewmodel"
-            type="org.example.library.feature.testlib.presentation.TestViewModel" />
+            type="org.example.library.feature.logictest.presentation.TestViewModel" />
         <import type="android.view.View" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
