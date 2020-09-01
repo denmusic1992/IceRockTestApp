@@ -29,7 +29,8 @@ val mppLibs = listOf(
 val mppModules = listOf(
     Modules.MultiPlatform.domain,
     Modules.MultiPlatform.Feature.config,
-    Modules.MultiPlatform.Feature.list
+    Modules.MultiPlatform.Feature.list,
+    Modules.MultiPlatform.Feature.mokoResources
 )
 
 setupFramework(

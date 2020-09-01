@@ -19,6 +19,7 @@ import org.example.library.feature.config.presentation.ConfigViewModel
 import org.example.library.feature.list.di.ListFactory
 import org.example.library.feature.list.model.ListSource
 import org.example.library.feature.list.presentation.ListViewModel
+import org.example.library.feature.moko_resources.di.ResourcesFactory
 
 class SharedFactory(
     settings: Settings,
@@ -87,6 +88,10 @@ class SharedFactory(
         },
         defaultToken = "ed155d0a445e4b4fbd878fe1f3bc1b7f",
         defaultLanguage = "us"
+    )
+
+    val resourcesFactory = ResourcesFactory(
+        defaultLanguage = "ru"
     )
 
     init {

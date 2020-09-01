@@ -18,6 +18,11 @@ object Modules {
                 name = ":mpp-library:feature:list",
                 exported = true
             )
+
+            val mokoResources = MultiPlatformModule(
+                name = ":mpp-library:feature:moko_resources",
+                exported = true
+            )
         }
     }
 }
