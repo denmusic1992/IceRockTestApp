@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:tools="http://schemas.android.com/tools">
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <import type="org.example.library.MR" />
 
         <variable
@@ -16,72 +18,82 @@
 
         <TextView
             android:id="@+id/textTitle"
-            android:text="@{viewModel.title}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
-            tools:text="personal settings:"
+            android:text="@{viewModel.title}"
+            android:textStyle="bold"
+            tools:text="personal settings:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="@{viewModel.nameTitle}"
             android:textStyle="bold" />
 
         <TextView
-            android:text="@{viewModel.nameTitle}"
+            android:id="@+id/textName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:textStyle="bold"
-            android:layout_marginTop="24dp"/>
-        <TextView
-            android:id="@+id/textName"
             android:text="@{viewModel.person.name}"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:text="Denis"
-            android:layout_marginStart="24dp" />
+            tools:text="Denis" />
 
         <TextView
-            android:text="@{viewModel.ageTitle}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:textStyle="bold"
-            android:layout_marginTop="24dp"/>
+            android:layout_marginTop="24dp"
+            android:text="@{viewModel.ageTitle}"
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/textAge"
-            android:text="@{viewModel.person.age}"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:text="28 years"
-            android:layout_marginStart="24dp" />
-
-        <TextView
-            android:text="@{viewModel.greetingsTitle}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:textStyle="bold"
-            android:layout_marginTop="24dp"/>
+            android:text="@{viewModel.person.age}"
+            tools:text="28 years" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="@{viewModel.greetingsTitle}"
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/textGreetings"
-            android:text="@{viewModel.person.greetings}"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:text="Hello, World"
-            android:layout_marginStart="24dp" />
-
-        <TextView
-            android:text="@{viewModel.languagesTitle}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
-            android:textStyle="bold"
-            android:layout_marginTop="24dp"/>
+            android:text="@{viewModel.person.greetings}"
+            tools:text="Hello, World" />
+
         <TextView
-            android:id="@+id/textLanguages"
-            android:text="@{viewModel.person.languages}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="24dp" />
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="@{viewModel.languagesTitle}"
+            android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/textLanguages"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:text="@{viewModel.person.languages}" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:image="@{viewModel.drawable}" />
     </LinearLayout>
 </layout>
