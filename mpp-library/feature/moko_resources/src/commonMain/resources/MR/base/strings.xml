@@ -7,4 +7,5 @@
     <string name="my_age_title">Your age:</string>
     <string name="my_name_title">Your name:</string>
     <string name="my_greetings_title">Your greetings:</string>
+    <string name="my_languages_title">How many languages do you know:</string>
 </resources>

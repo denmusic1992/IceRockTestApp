@@ -69,5 +69,19 @@
             tools:text="Hello, World"
             android:layout_marginStart="24dp" />
 
+        <TextView
+            android:text="@{viewModel.languagesTitle}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
+        <TextView
+            android:id="@+id/textLanguages"
+            android:text="@{viewModel.person.languages}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp" />
+
     </LinearLayout>
 </layout>

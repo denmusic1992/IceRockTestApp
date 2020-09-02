@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <plural name="my_languages">
+        <item quantity="zero">no languages</item>
+        <item quantity="one">%d language</item>
+        <item quantity="two">%d languages</item>
+        <item quantity="few">%d languages</item>
+        <item quantity="many">%d languages</item>
+        <item quantity="other">%d languages</item>
+    </plural>
+</resources>

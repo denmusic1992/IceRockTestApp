@@ -5,5 +5,6 @@ import dev.icerock.moko.resources.desc.StringDesc
 data class Person (
     val name: StringDesc,
     val age: StringDesc,
-    val greetings: StringDesc
+    val greetings: StringDesc,
+    val languages: StringDesc
 )

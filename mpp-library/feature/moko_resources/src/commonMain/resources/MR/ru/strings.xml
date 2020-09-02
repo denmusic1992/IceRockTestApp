@@ -4,4 +4,8 @@
     <string name="my_greetings">Привет, МИР!</string>
     <string name="my_name">Денис</string>
     <string name="my_age">%s лет</string>
+    <string name="my_age_title">Ваше возраст:</string>
+    <string name="my_name_title">Ваше имя:</string>
+    <string name="my_greetings_title">Ваше приветствие:</string>
+    <string name="my_languages_title">Как много языков вы знаете:</string>
 </resources>
