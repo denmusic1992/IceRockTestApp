@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+        <import type="org.example.library.MR" />
 
         <variable
             name="viewModel"
@@ -15,28 +16,58 @@
 
         <TextView
             android:id="@+id/textTitle"
+            android:text="@{viewModel.title}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            tools:text="personal settings:"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textName"
+            android:text="@{viewModel.nameTitle}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="24dp" />
+            android:layout_marginStart="24dp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
+        <TextView
+            android:id="@+id/textName"
+            android:text="@{viewModel.person.name}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Denis"
+            android:layout_marginStart="24dp" />
 
+        <TextView
+            android:text="@{viewModel.ageTitle}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
         <TextView
             android:id="@+id/textAge"
+            android:text="@{viewModel.person.age}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="24dp" />
+            tools:text="28 years"
+            android:layout_marginStart="24dp" />
 
         <TextView
-            android:id="@+id/textGreetings"
+            android:text="@{viewModel.greetingsTitle}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="24dp" />
+            android:layout_marginStart="24dp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"/>
+        <TextView
+            android:id="@+id/textGreetings"
+            android:text="@{viewModel.person.greetings}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Hello, World"
+            android:layout_marginStart="24dp" />
 
     </LinearLayout>
 </layout>

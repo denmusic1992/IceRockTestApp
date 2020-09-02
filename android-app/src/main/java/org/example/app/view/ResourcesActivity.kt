@@ -1,5 +1,6 @@
 package org.example.app.view
 
+import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import dev.icerock.moko.mvvm.BR
 import dev.icerock.moko.mvvm.MvvmEventsActivity

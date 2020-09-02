@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="title">Personal credentials:</string>
+    <string name="my_greetings">Hello, World!</string>
+    <string name="my_name">Denis</string>
+    <string name="my_age">%s years</string>
+    <string name="my_age_title">Your age:</string>
+    <string name="my_name_title">Your name:</string>
+    <string name="my_greetings_title">Your greetings:</string>
+</resources>
