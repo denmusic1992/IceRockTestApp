@@ -91,7 +91,7 @@ class SharedFactory(
     )
 
     val resourcesFactory = ResourcesFactory(
-        defaultLanguage = "ru"
+        defaultLanguage = "en"
     )
 
     init {

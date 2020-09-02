@@ -18,6 +18,7 @@
 
         <TextView
             android:id="@+id/textTitle"
+            app:setFont="@{viewModel.fontRegular}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
@@ -32,6 +33,7 @@
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
             android:text="@{viewModel.nameTitle}"
+            app:setFont="@{viewModel.fontRegular}"
             android:textStyle="bold" />
 
         <TextView
@@ -47,6 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
+            app:setFont="@{viewModel.fontRegular}"
             android:text="@{viewModel.ageTitle}"
             android:textStyle="bold" />
 
@@ -63,6 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
+            app:setFont="@{viewModel.fontRegular}"
             android:text="@{viewModel.greetingsTitle}"
             android:textStyle="bold" />
 
@@ -79,6 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:layout_marginTop="24dp"
+            app:setFont="@{viewModel.fontRegular}"
             android:text="@{viewModel.languagesTitle}"
             android:textStyle="bold" />
 

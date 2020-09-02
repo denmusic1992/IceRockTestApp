@@ -3,6 +3,7 @@ package org.example.library.feature.moko_resources.presentation
 import dev.icerock.moko.mvvm.dispatcher.EventsDispatcher
 import dev.icerock.moko.mvvm.dispatcher.EventsDispatcherOwner
 import dev.icerock.moko.mvvm.viewmodel.ViewModel
+import dev.icerock.moko.resources.FontResource
 import dev.icerock.moko.resources.ImageResource
 import dev.icerock.moko.resources.desc.StringDesc
 import org.example.library.feature.moko_resources.model.Person
@@ -33,6 +34,7 @@ class ResourcesViewModel(
     fun getGreetingsTitle() = StringDesc.Resource(MR.strings.my_greetings_title)
     fun getLanguagesTitle() = StringDesc.Resource(MR.strings.my_languages_title)
     fun getDrawable(): ImageResource = MR.images.icon
+    fun getFontRegular(): FontResource = MR.fonts.Pacifico.regular
 
     private fun getGreetings() = StringDesc.Resource(MR.strings.my_greetings)
     private fun getAge(age: Int) = StringDesc.ResourceFormatted(MR.strings.my_age, age)
